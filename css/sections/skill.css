@@ -1,0 +1,12 @@
+.skills__container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.skills__grid_container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, minmax(320px, auto));
+  gap: 12px;
+}
