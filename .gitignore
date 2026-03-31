@@ -1,0 +1,14 @@
+# Các file hệ thống
+.DS_Store
+Thumbs.db
+
+# Cấu hình của trình soạn thảo
+.vscode/
+.idea/
+
+# Nếu sau này bạn dùng npm/node
+node_modules/
+dist/
+
+# File bảo mật (CỰC KỲ QUAN TRỌNG)
+.env
