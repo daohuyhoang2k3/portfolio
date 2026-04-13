@@ -15,6 +15,17 @@
   .container {
     max-width: 1028px;
   }
+
+  /** Skills **/
+
+  .softSkills_badge {
+    position: static !important;
+    transform: none !important;
+  }
+
+  .softSkills__book_icons {
+    display: none;
+  }
 }
 
 /* *================================
@@ -49,6 +60,17 @@
     text-align: center;
     align-items: center;
   }
+
+  /** Skills **/
+
+  .softSkills_badge {
+    position: static !important;
+    transform: none !important;
+  }
+
+  .softSkills__book_icons {
+    display: none;
+  }
 }
 
 /* *================================
@@ -65,6 +87,18 @@
 
     & img {
       display: none;
+    }
+  }
+
+  /** skills **/
+  .skills__grid_container {
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    grid-template-rows: repeat(4, minmax(280px, auto));
+
+    & .skills__grid_item {
+      padding: 1rem 1rem;
+      grid-column: span 1 !important;
+      grid-row: span 1 !important;
     }
   }
 }
